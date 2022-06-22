@@ -23,10 +23,10 @@ TODO --> Planned --> Dev--> Testing_India--> Testing_BE--> RD_Review  --> done
 flowchart
 TODO --> Planned --> Dev--> Testing_India--> Testing_BE--> RD_Review  --> done
 
-Dev --> |wrong feature|Planned
+Dev --> |specs clarification|Planned
 Testing_India --> |bugs|Dev
-Testing_BE --> |feature wrong|Dev
-RD_Review--> |dev wrong|Dev
+Testing_BE --> |dev <> specs\nspecs ajustments|Dev
+RD_Review--> |dev wrong\ncode or design issues|Dev
 ```
 <div style="page-break-after: always"></div>
 
