@@ -1,8 +1,12 @@
 # Classic Software Development Lifecycle (SDL) workflow
-* scrum         defines roles, has iterations, lots of ceremonies, focus on tasks, estimate user stories, sprint timelines 
-* kanban        defines steps, focus on limit work in progress, no estimates, no timeline 
-* waterfall     defines steps, defines roles, no iterations, focus on accountability, estimate everything, full timelines
-* none          hope for the best and do what you can
+
+methodology | iterations    | focus                  | estimates           | timeline        | other
+------------|---------------|------------------------|---------------------|-----------------|---------------------------------
+scrum       | yes           | tasks                  | user stories        | sprints         | lots of ceremonies
+kanban      | steps         | limit work in progress | no                  | continuous flow |
+waterfall   | none          | accountability         | estimate everything | full timelines  | lots of processes and procedures
+none        | hope for the best and do what you can
+
 
 <div style="page-break-after: always"></div>
 
