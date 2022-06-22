@@ -47,7 +47,7 @@ Testing_BE --> cancelled
 
 * Fabien Pinkaers (FP) - CEO
   * does a lot of ordering of tasks, follows closely on tasks he cares about
-* Antony Lessuise (AL) - CTO, our boss
+* Antony Lesuisse (AL) - CTO, our boss
   * involved in most technical discussions
   * involved in recruitment
   * does the first evaluation of everybody with Guru
@@ -56,8 +56,9 @@ Testing_BE --> cancelled
   * Each team has a functional or technical domain.
   * The teams are evolving (new/split/merge) all the time
 * The PO's: the product owners
+  * they are responsible for the functional specifications of tasks
   * they define and order tasks
-  * the work closely with FP and the gurus
+  * they work closely with FP and the gurus
   * devs go talk to them directly to ask questions and clarifications about tasks
   * they test all tasks
   * Each PO have one or more team
@@ -67,9 +68,9 @@ Testing_BE --> cancelled
   * they are responsible for their team members (increase/decrease)
 <div style="page-break-after: always"></div>
 
-* The R+ssers: the people that can approve a PR
-  * every guru has R+
+* The code reviewers (R+ssers): the people that can approve a PR
   * The person that R+ takes responsibility for what he approves, along with the dev
+  * every guru has R+
   * people gain the right to R+ by gaining trust with Guru/AL
 
 * The devs (you, me, most people around you when you are in GR2)
@@ -89,3 +90,10 @@ Testing_BE --> cancelled
   * Take ownership of their task/domain/likings
 
 <div style="page-break-after: always"></div>
+
+* runbot, robodoo, fw-bot, mergebot
+  * runbot.odoo.com : follow-up on testing for every branch, executes the automated tests, deploy changes on test instances
+  * mergebot.odoo.com : follow-up on pull requests, actually merge work in production
+  * fw-bot: automate forward-ports
+  * rodoboo: github bot that interract with runbot and mergebot
+
